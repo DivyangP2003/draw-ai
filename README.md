@@ -156,14 +156,6 @@ Perfect for:
 
 5. **Open your browser**
    Navigate to [http://localhost:3000](http://localhost:3000)
-
-### Build for Production
-
-\`\`\`bash
-npm run build
-npm run start
-\`\`\`
-
 ---
 
 ## 📖 Usage Guide
@@ -180,15 +172,6 @@ npm run start
 - **Select Note** - Click to load a note back to the canvas
 - **Calendar** - Switch to Calendar view to see notes by date
 - **Analytics** - Check your drawing statistics and productivity
-
-### Keyboard Shortcuts
-| Shortcut | Action |
-|----------|--------|
-| `C` | Clear canvas |
-| `N` | New drawing |
-| `A` | Analyze drawing |
-| `S` | Save note |
-
 ---
 
 ## 🤖 AI Capabilities
@@ -247,72 +230,6 @@ ipadmathclone/
 
 ---
 
-## 🔧 API Reference
-
-### POST `/api/analyze`
-Analyzes a drawing image using Gemini AI.
-
-**Request:**
-\`\`\`json
-{
-  "image": "data:image/png;base64,..."
-}
-\`\`\`
-
-**Response:**
-\`\`\`json
-{
-  "analysis": "Step-by-step solution...",
-  "tags": ["math", "algebra"]
-}
-\`\`\`
-
-### POST `/api/smart-tags`
-Generates intelligent tags from analysis text.
-
-**Request:**
-\`\`\`json
-{
-  "analysisText": "The equation 2x + 5 = 13 solves to x = 4..."
-}
-\`\`\`
-
-**Response:**
-\`\`\`json
-{
-  "tags": ["math", "algebra", "equations"]
-}
-\`\`\`
-
----
-
-## 🎨 Customization
-
-### Themes
-Modify colors in `app/globals.css`:
-\`\`\`css
-:root {
-  --primary: oklch(0.5 0.2 262);
-  --secondary: oklch(0.25 0 0);
-  /* ... other colors ... */
-}
-\`\`\`
-
-### Drawing Tools
-Edit `components/drawing-canvas.jsx` to add new shapes, colors, or tools:
-\`\`\`javascript
-const COLORS = ["#FFFFFF", "#FF0000", /* ... */];
-const SHAPES = ["free", "line", "rectangle", "circle", "eraser"];
-\`\`\`
-
-### AI Model
-Change the Gemini model in `app/api/analyze/route.js`:
-\`\`\`javascript
-const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash" });
-\`\`\`
-
----
-
 ## 📊 Data Storage
 
 All data is stored locally in your browser using **localStorage**:
@@ -322,19 +239,6 @@ All data is stored locally in your browser using **localStorage**:
 - Drawing statistics
 
 No data is sent to external servers except for AI analysis through Gemini API.
-
----
-
-## ⚙️ Configuration
-
-### Environment Variables
-\`\`\`env
-# Required
-GEMINI_API_KEY=your_key_here
-
-# Optional
-NEXT_PUBLIC_DEV_SUPABASE_REDIRECT_URL=http://localhost:3000
-\`\`\`
 
 ---
 
@@ -371,30 +275,6 @@ NEXT_PUBLIC_DEV_SUPABASE_REDIRECT_URL=http://localhost:3000
 
 ---
 
-## 🤝 Contributing
-
-Contributions are welcome! Follow these steps:
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-### Development
-\`\`\`bash
-# Install dependencies
-npm install
-
-# Run development server
-npm run dev
-
-# Build for production
-npm run build
-\`\`\`
-
----
-
 ## 📝 License
 
 This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
@@ -407,17 +287,9 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 - [shadcn/ui](https://ui.shadcn.com) for beautiful UI components
 - [Tailwind CSS](https://tailwindcss.com) for utility-first styling
 - [Next.js](https://nextjs.org) for the powerful framework
-- All contributors and users
 
 ---
 
-## 📞 Support
-
-- **Documentation** - Check the [wiki](https://github.com/yourusername/ipadmathclone/wiki)
-- **Issues** - Found a bug? [Report it](https://github.com/yourusername/ipadmathclone/issues)
-- **Discussions** - Have questions? [Start a discussion](https://github.com/yourusername/ipadmathclone/discussions)
-
----
 
 ## 🚀 Roadmap
 
@@ -434,6 +306,6 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 ---
 
-**Made with ❤️ by iPad Math Clone Contributors**
+**Made with ❤️ by Divyan Palshetkar**
 
 *Last Updated: November 2025*
