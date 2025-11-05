@@ -129,25 +129,25 @@ Perfect for:
 ### Installation
 
 1. **Clone the repository**
-   \`\`\`
+  ```bash
    git clone https://github.com/DivyangP2003/draw-ai.git
-   \`\`\`
+  ```
 
 2. **Install dependencies**
-   \`\`\`
+   ```bash
    npm install
-   \`\`\`
+   ```
 
 3. **Set up environment variables**
    Create a `.env` file in the root directory:
-   \`\`\`env
+   ```bash
    GEMINI_API_KEY=your_google_gemini_api_key_here
-   \`\`\`
+   ```
 
 4. **Run the development server**
-   \`\`\`bash
+   ```bash
    npm run dev
-   \`\`\`
+   ```
 
 5. **Open your browser**
    Navigate to [http://localhost:3000](http://localhost:3000)
@@ -193,7 +193,7 @@ Automatically categorizes notes into 20+ tags including:
 
 ## 📁 Project Structure
 
-\`\`\`
+```bash
 ipadmathclone/
 ├── app/
 │   ├── api/
@@ -221,7 +221,7 @@ ipadmathclone/
 │   └── math-engine.js        # Math calculations
 ├── public/
 └── styles/
-\`\`\`
+```
 
 ---
 
