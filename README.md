@@ -126,29 +126,25 @@ Perfect for:
 - npm or pnpm package manager
 - Google Gemini API key ([Get one free](https://ai.google.dev))
 
-### Installation
+### 🚀 Installation
 
 1. **Clone the repository**
-  ```bash
-      git clone https://github.com/DivyangP2003/draw-ai.git
-      cd draw-ai
-  ```
+   ```bash
+   git clone https://github.com/DivyangP2003/draw-ai.git
+   cd draw-ai
 
 2. **Install dependencies**
    ```bash
-       npm install
-   ```
+   npm install
 
 3. **Set up environment variables**
    Create a `.env` file in the root directory:
    ```bash
-       GEMINI_API_KEY=your_google_gemini_api_key_here
-   ```
+   GEMINI_API_KEY=your_google_gemini_api_key_here
 
 4. **Run the development server**
    ```bash
-       npm run dev
-   ```
+   npm run dev
 
 5. **Open your browser**
    Navigate to [http://localhost:3000](http://localhost:3000)
@@ -302,6 +298,6 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 ---
 
-**Made with ❤️ by Divyan Palshetkar**
+**Made with ❤️ by Divyang Palshetkar**
 
 *Last Updated: November 2025*
